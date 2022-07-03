@@ -13,12 +13,12 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          AnikinCode Portfolio by <a href="https://www.linkedin.com/in/kirill-anikin-449026154/">Kirill Anikin</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+        
+          
         </p>
 
         <div className={styles.grid}>
@@ -53,14 +53,13 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
+        
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
+          rel="noopener noreferrer">
           <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <Image src='/logo.png' alt="Anikin Code" width={100} height={100} />
           </span>
         </a>
       </footer>
