@@ -1,6 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
+<<<<<<< HEAD
 import styles from '../styles/Home.module.css'
+=======
+import styles from '../styles/Home.module.scss'
+>>>>>>> a03c040cc042cb3e0cc3c397013f8f41d36900e0
 import Link from 'next/link'
 
 export default function Home() {
